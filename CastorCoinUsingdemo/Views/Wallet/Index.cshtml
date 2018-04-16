@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>API List</h2>
+<table>
+    <tr><td>@Html.ActionLink("VerifyEmailAndGetOtp", "VerifyEmailAndGetOtp", "Registration")</td></tr>
+    <tr><td>@Html.ActionLink("VerifyOtp", "VerifyOtp", "Registration")</td></tr>
+    <tr><td>@Html.ActionLink("ResendOtp", "ResendOtp", "Registration")</td></tr>
+    <tr><td>@Html.ActionLink("SetPassword", "SetPassword", "Registration")</td></tr>
+    <tr><td>@Html.ActionLink("GetWalletList", "GetWalletList", "Wallet")</td></tr>
+    <tr><td>@Html.ActionLink("AddWallet", "AddWallet", "Wallet")</td></tr>
+    <tr><td>@Html.ActionLink("RequestWalletAddress", "RequestWalletAddress", "Wallet")</td></tr>
+    <tr><td>@Html.ActionLink("SendCoin", "SendCoin", "Wallet")</td></tr>
+    <tr><td>@Html.ActionLink("GetCastorRate", "GetCastorRate", "Wallet")</td></tr>
+    <tr><td>@Html.ActionLink("GetTransactionHistory", "GetTransactionHistory", "Transaction")</td></tr>
+    <tr><td>@Html.ActionLink("GetTransactionHistoryByAccountNumber", "GetTransactionHistoryByAccountNumber", "Transaction")</td></tr>
+    <tr><td>@Html.ActionLink("GetTransactionAmountByAccountNumber", "GetTransactionAmountByAccountNumber", "Transaction")</td></tr>
+</table>
+
